@@ -1,2 +1,2 @@
 # Projeto-Portifolio-Profissional
-Projeto de criação de um portifólio profissional para a cadeira de Desenvolvimento Web. Usando apenas JavaScript, CSS e HTML. 
+Projeto de criação de um portifólio profissional para a cadeira de Desenvolvimento Web. Usando apenas JavaScript, CSS e HTML. Usei apenas meu conhecimento, ainda limitado sobre essas tecnologias e aprendi muito mais desenvolvendo, usando auxílio de IA, ajuda de canais do Youtube e forums no reddit. Tentei manter a simplicidade e a autenticidade no meu primeiro projeto de protifólio profissional
