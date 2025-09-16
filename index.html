@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Bernardo Pinheiro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+    <!-- Cabeçalho -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Meu Portfólio</h1>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+
+            <!-- Switch Dark/Light -->
+            <label class="switch">
+                <input type="checkbox" id="themeToggle">
+                <span class="slider"></span>
+            </label>
+
+            <button class="menu-toggle">☰</button>
+        </nav>
+    </header>
+
+    <!-- Seção Hero -->
+<section class="hero">
+    <div class="hero-image">
+        <img src="../imagens/foto-portifolio.jpg" alt="Foto de Bernardo Pinheiro">
+    </div>
+    <div class="hero-text">
+        <h2>Olá, eu sou <span>Bernardo Pinheiro</span></h2>
+        <p>Estudante de Ciência da Computação | Software Developer | Tecnologia</p>
+        <a href="#projetos" class="btn">Ver Projetos</a>
+    </div>
+</section>
+
+    <!-- Projetos -->
+    <section id="projetos" class="projetos">
+        <h2>Meus Projetos</h2>
+        <div class="projetos-grid">
+            <div class="card">
+                <h3>Projeto 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit...</p>
+                <a href="#" class="btn">Ver mais</a>
+            </div>
+            <div class="card">
+                <h3>Projeto 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit...</p>
+                <a href="#" class="btn">Ver mais</a>
+            </div>
+            <div class="card">
+                <h3>Projeto 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit...</p>
+                <a href="#" class="btn">Ver mais</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contato">
+        <h2>Entre em Contato</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Seu Nome" required>
+            <input type="email" placeholder="Seu Email" required>
+            <textarea placeholder="Sua Mensagem" required></textarea>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 - Desenvolvido por Bernardo Pinheiro</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
